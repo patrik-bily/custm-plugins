@@ -1,0 +1,26 @@
+{
+	"name": "ValidPlugin",
+	"version": "1.0.0",
+	"description": "first valid plugin",
+	"dangerLevel": "high",
+	"platforms": {
+		"tizen": {
+			"rootDir": "tizen",
+			"mainFile": "index.esnext.js",
+			"runtime": "browser"
+		},
+		"default": {
+			"rootDir": "default",
+			"mainFile": "index.esnext.js",
+			"runtime": "browser"
+		}
+	},
+	"configDefinition": [
+		{
+			"name": "brightness",
+			"valueType": "number",
+			"mandatory": true,
+			"description": "The brightness level to set"
+		}
+	],
+}
