@@ -1,0 +1,7 @@
+{
+    "schema": [{
+        "name": "saturation",
+        "description": "Saturation input",
+        "valueType": "number"
+    }]
+}
