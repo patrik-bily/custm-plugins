@@ -22,5 +22,5 @@
 			"mandatory": true,
 			"description": "The brightness level to set"
 		}
-	],
+	]
 }
